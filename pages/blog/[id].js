@@ -1,6 +1,7 @@
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
 import { createClient } from "contentful";
 import Image from 'next/image'
+import PlaceholderPage from '../../components/PlaceholderPage';
 const client=createClient({
     space:'ps0iaebwipyk',
     accessToken:'kM7KYhpaoJaRnrcRInxKbvwGNQ_BuXXPRU3DGW7Dqw4'
@@ -16,7 +17,7 @@ export async function getStaticPaths(){
 
     return{
         paths,
-        fallback:false,
+        fallback:true,
     }
 }
 export async function getStaticProps({params}){
@@ -33,7 +34,7 @@ return{
 }
 
 const CatchBlog = ({dane}) => {
-
+if(!dane) return <PlaceholderPage/>
 const {ketoGofry,shortDescription,image}=dane.fields
 console.log(shortDescription)
     return ( <div>
