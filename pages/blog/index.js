@@ -13,7 +13,8 @@ const client=createClient({
 const res=await client.getEntries({content_type:'przepisy'})
 
 return {
-    props:{dane:res}
+    props:{dane:res},
+    revalidate:1
 }
 
 }

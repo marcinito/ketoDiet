@@ -39,7 +39,7 @@ console.log(shortDescription)
     return ( <div>
 <h1>{ketoGofry}</h1>
 <Image src={`http:${image.fields.file.url}`} width="400" height="300"></Image>
-`<p>{documentToReactComponents(shortDescription)}</p>`
+{documentToReactComponents(shortDescription)}
     </div> );
 }
  
