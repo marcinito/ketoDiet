@@ -22,7 +22,7 @@ return {
 
 
 const Przepisy = ({dane}) => {
-if(!dane){return(<h1>Loading....</h1>)}
+
     console.log(dane)
     return ( <div className="listaPrzepisow">
         {dane.map(el=>(
