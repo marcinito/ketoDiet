@@ -1,4 +1,42 @@
 .home{
-    background-color: gray;
-    margin-top:0;
+    background-color:#DCDCDC;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifTimes, 'Times New Roman', serif;
+    
+}
+.h1{
+    text-align: center;
+    margin-top:0px;
+    -webkit-text-stroke:.5px blue;
+ 
+   
+}
+.text{
+    width:80%;
+    text-align: center;
+    margin:0 auto;
+    font-size:1.7rem;
+    display:flex;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
+.box{
+    width:calc(530px/4);
+   
+    position:absolute;
+    height:130px;
+    overflow:hidden;
+    animation:run 1s steps(4) infinite;
+    background: url('../public/bieganie.png');
+    top:45%;
+    left:50%;
+    transform:translate(-50%,0)
+
+}
+@keyframes run{
+    from{
+background-position:0 ;
+    }
+    to{
+        background-position:530px ;
+    }
 }

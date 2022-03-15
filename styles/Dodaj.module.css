@@ -1,0 +1,53 @@
+.container{
+    background-color:#DCDCDC;
+    width:100%;
+}
+
+/*INSTRUKCJA JAK DODAC*/
+.h1{
+    text-align: center;
+    -webkit-text-stroke:0.5px red;
+
+}
+.h3{
+    text-align: center;
+}
+.li{
+    font-family: Georgia;
+    font-size: 1.3rem;
+}
+.a{
+    font-size:2rem;
+    font-weight: bold;
+    color:red;
+    text-decoration: underline;
+}
+.spaninfo{
+    color:green;
+    border:1px solid orange
+}
+.spaninfo2{
+    color:blue;
+    border:3px solid orange
+}
+.spaninfo3{
+    color:red;
+    font-weight: bold;
+    border:3px solid green;
+    font-size:1.2rem;
+}
+.spaninfo4{
+    color:yellow;
+    font-weight: bold;
+    border:3px solid green;
+    font-size:1.3rem;
+    -webkit-text-stroke:1px brown;
+}
+.zdj{
+width:100%;
+}
+.zdj2{
+position:relative;
+left:50%;
+transform:translate(-50%,0)
+}

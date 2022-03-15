@@ -1,6 +1,6 @@
 .navbarSecond{
-    width:100%;
-    height:20%;
+    width:80vw;
+    height:20vh;
   
   
 }
@@ -8,6 +8,51 @@
   height:100%;
 
 
-  width: 20%;
+  width: 33.33%;
 
+}
+.btnPak{
+  position:relative;
+
+  top:-17%;
+  width:20%;
+  left:8%;
+}
+.btn{
+  position:relative;
+  width:20px;
+  height:20px;
+  background-color: transition;
+  border-radius:50%;
+  
+}
+.btnPak1{
+  position:relative;
+
+  top:-27%;
+  width:20%;
+  left:43%;
+}
+.btn1{
+  position:relative;
+  width:20px;
+  height:20px;
+  background-color: red;
+  border-radius:50%;
+  
+}
+.btnPak2{
+  position:relative;
+
+  top:-38%;
+  width:20%;
+  left:76%;
+}
+.btn2{
+  position:relative;
+  width:20px;
+  height:20px;
+  background-color: red;
+  border-radius:50%;
+  
 }

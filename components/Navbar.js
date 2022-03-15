@@ -8,7 +8,7 @@ const NavbarTop = () => {
         `
         .navbarTop{
             width:100%;
-            height:7%;
+            height:5vh;
             background-color:black;
             color:white;
             
@@ -21,7 +21,7 @@ const NavbarTop = () => {
            align-items:center;
         }
         .inputSearch{
-height:55%;
+height:70%;
 text-align:center;
 font-weight:bold;
 font-size:1.1rem;

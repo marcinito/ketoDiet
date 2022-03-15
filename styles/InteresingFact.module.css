@@ -1,0 +1,39 @@
+.container{
+    width:100%;
+    background-color: #DCDCDC;
+}
+.article{
+    width:100%;
+
+    
+}
+.imgAndOpis{
+    width:100%;
+    height:100%;
+    
+    height:300px;
+    display:flex;
+}
+.imgOpis{
+    width:30%;
+    height:100%;
+    border:10px solid black;
+    border-radius:40px;
+
+}
+/**/do podstron
+
+
+.containerArticleDetial{
+width:100%;
+height:fit-content;
+background-color: #DCDCDC;
+}
+.zdjArticle{
+    width:100%;
+    height:30vh;
+}
+.h1{
+    text-align: center;
+    -webkit-text-stroke:0.5px orange;
+}
