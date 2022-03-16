@@ -9,7 +9,7 @@ const Dodaj = () => {
         <ol>
             <li className={styles.li}>Pierwszy Krok, kliknij na link pod spodem żeby wejść na strone na której to zrobisz!
             Gdy na niej juz bedziesz klinij <span className={styles.spaninfo}>Log in</span> po prawej stronie
-            </li><a className={styles.a} href="https://www.contentful.com/" without >KLIKNIJ NA TEN LINK</a>
+            </li><a className={styles.a}  href="https://www.contentful.com/" target="_blank" >KLIKNIJ NA TEN LINK</a>
             <img className={styles.zdj} src={`/instrukcja/instrukcja1.png`}></img>
             <br/>
             <br/>
